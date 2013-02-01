@@ -34,7 +34,7 @@ class Jojo_Plugin_jojo_super_background extends Jojo_Plugin {
             return $parent['bg'];
         }
         if ($parent['pg_parent']) {
-            return find_pg_image($parent['pg_parent']);
+            return self::find_pg_image($parent['pg_parent']);
         }
         return false;
     }
