@@ -1,0 +1,1 @@
+Allows setting a fullscreen semi-responsive background per page (or parent page).
